@@ -1,0 +1,215 @@
+ERROR - 2022-05-05 14:05:20 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:05:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 14:05:32 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:05:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 14:05:57 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:05:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 14:38:34 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:38:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 14:41:49 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:41:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 14:43:23 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:43:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 14:44:44 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 14:44:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#8 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-05 19:14:33 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 19:14:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-05 19:14:53 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 19:14:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-05 19:15:37 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 19:15:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-05 19:16:22 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 19:16:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-05 19:17:28 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 19:17:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-05 19:18:03 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+CRITICAL - 2022-05-05 19:18:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+#0 C:\xampp\htdocs\bancoRest\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\bancoRest\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\bancoRest\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\bancoRest\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\bancoRest\app\Controllers\API\Clientes.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->index()
+#6 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
